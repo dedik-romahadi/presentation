@@ -1415,7 +1415,7 @@ transition: fade
   <div class="relative rounded-2xl overflow-hidden s5-video-frame" style="width: 100%; height: 100%;">
     <div class="relative" style="width: 100%; height: 100%; background: #0f172a;">
       <video autoplay muted loop playsinline style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover;">
-        <source :src="'/scenario1-pvt.mp4'" type="video/mp4"/>
+        <source :src="`${import.meta.env.BASE_URL}scenario1-pvt.mp4`" type="video/mp4"/>
       </video>
       <div class="absolute top-3 left-3 flex items-center gap-2 bg-black/60 backdrop-blur rounded-full px-3 py-1 border border-fuchsia-400/40">
         <div class="w-1.5 h-1.5 bg-red-500 rounded-full s5-rec-pulse"></div>
@@ -1522,7 +1522,7 @@ transition: fade
   <div class="relative rounded-2xl overflow-hidden s6-video-frame" style="width: 100%; height: 100%;">
     <div class="relative" style="width: 100%; height: 100%; background: #0f172a;">
       <video autoplay muted loop playsinline style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover;">
-        <source :src="'/scenario2-uav.mp4'" type="video/mp4"/>
+        <source :src="`${import.meta.env.BASE_URL}scenario2-uav.mp4`" type="video/mp4"/>
       </video>
       <div class="absolute top-3 left-3 flex items-center gap-2 bg-black/60 backdrop-blur rounded-full px-3 py-1 border border-cyan-400/40">
         <div class="w-1.5 h-1.5 bg-red-500 rounded-full s6-rec-pulse"></div>
@@ -1629,7 +1629,7 @@ transition: fade
   <div class="relative rounded-2xl overflow-hidden s7-video-frame" style="width: 100%; height: 100%;">
     <div class="relative" style="width: 100%; height: 100%; background: #0f172a;">
       <video autoplay muted loop playsinline style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover;">
-        <source :src="'/scenario3-ugv.mp4'" type="video/mp4"/>
+        <source :src="`${import.meta.env.BASE_URL}scenario3-ugv.mp4`" type="video/mp4"/>
       </video>
       <div class="absolute top-3 left-3 flex items-center gap-2 bg-black/60 backdrop-blur rounded-full px-3 py-1 border border-amber-400/40">
         <div class="w-1.5 h-1.5 bg-red-500 rounded-full s7-rec-pulse"></div>
@@ -4815,7 +4815,7 @@ transition: fade
           <div class="absolute bottom-2 left-2 z-30 bg-black/60 backdrop-blur-sm rounded px-1.5 py-0.5 border border-emerald-400/40">
             <div class="text-[7px] font-mono text-emerald-300 tracking-wider">EEG · 8 CHANNELS · 500 HZ</div>
           </div>
-          <img :src="'/preprocessing-result.png'" alt="UGV - Artifact Detection Visualization - Segment 50" class="max-w-full max-h-full object-contain rounded shadow-lg s18-image-effect" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+          <img :src="`${import.meta.env.BASE_URL}preprocessing-result.png`" alt="UGV - Artifact Detection Visualization - Segment 50" class="max-w-full max-h-full object-contain rounded shadow-lg s18-image-effect" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
           <div class="hidden flex-col items-center justify-center gap-2 text-slate-500 font-mono text-[10px] p-8 border-2 border-dashed border-slate-700 rounded-lg">
             <div class="text-[14px] text-emerald-400">📊</div>
             <div>Place image at: <span class="text-emerald-300">public/preprocessing-result.png</span></div>
@@ -5057,7 +5057,7 @@ transition: fade
           <div class="absolute bottom-2 left-2 z-30 bg-black/60 backdrop-blur-sm rounded px-1.5 py-0.5 border border-cyan-400/40">
             <div class="text-[7px] font-mono text-cyan-300 tracking-wider">TOBII · 90 HZ · 6 TRIALS</div>
           </div>
-          <img :src="'/gaze-signals.png'" alt="Gaze Signals - Cross Scenario" class="max-w-full max-h-full object-contain rounded shadow-lg s19-image-effect" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+          <img :src="`${import.meta.env.BASE_URL}gaze-signals.png`" alt="Gaze Signals - Cross Scenario" class="max-w-full max-h-full object-contain rounded shadow-lg s19-image-effect" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
           <div class="hidden flex-col items-center justify-center gap-2 text-slate-500 font-mono text-[10px] p-8 border-2 border-dashed border-slate-700 rounded-lg">
             <div class="text-[14px] text-emerald-400">👁️</div>
             <div>Place image at: <span class="text-emerald-300">public/gaze-signals.png</span></div>
@@ -5296,7 +5296,7 @@ transition: fade
           <div class="absolute bottom-2 left-2 z-30 bg-black/60 backdrop-blur-sm rounded px-1.5 py-0.5 border border-fuchsia-400/40">
             <div class="text-[7px] font-mono text-fuchsia-300 tracking-wider">PVT · 16 SPECTROGRAMS</div>
           </div>
-          <img :src="'/erp-pvt-spectro.png'" alt="ERP - PVT - Stimulus Spectrogram" class="max-w-full max-h-full object-contain rounded shadow-lg s20-image-effect" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+          <img :src="`${import.meta.env.BASE_URL}erp-pvt-spectro.png`" alt="ERP - PVT - Stimulus Spectrogram" class="max-w-full max-h-full object-contain rounded shadow-lg s20-image-effect" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
           <div class="hidden flex-col items-center justify-center gap-2 text-slate-500 font-mono text-[10px] p-8 border-2 border-dashed border-slate-700 rounded-lg">
             <div class="text-[14px] text-emerald-400">📈</div>
             <div>Place image at: <span class="text-emerald-300">public/erp-pvt-spectro.png</span></div>
@@ -5535,7 +5535,7 @@ transition: fade
           <div class="absolute bottom-2 left-2 z-30 bg-black/60 backdrop-blur-sm rounded px-1.5 py-0.5 border border-orange-400/40">
             <div class="text-[7px] font-mono text-orange-300 tracking-wider">UGV · 16 SPECTROGRAMS</div>
           </div>
-          <img :src="'/erp-ugv-stim.png'" alt="ERP - UGV - Stimulus Spectrogram" class="max-w-full max-h-full object-contain rounded shadow-lg s21-image-effect" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+          <img :src="`${import.meta.env.BASE_URL}erp-ugv-stim.png`" alt="ERP - UGV - Stimulus Spectrogram" class="max-w-full max-h-full object-contain rounded shadow-lg s21-image-effect" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
           <div class="hidden flex-col items-center justify-center gap-2 text-slate-500 font-mono text-[10px] p-8 border-2 border-dashed border-slate-700 rounded-lg">
             <div class="text-[14px] text-emerald-400">📈</div>
             <div>Place image at: <span class="text-emerald-300">public/erp-ugv-stim.png</span></div>
@@ -5774,7 +5774,7 @@ transition: fade
           <div class="absolute bottom-2 left-2 z-30 bg-black/60 backdrop-blur-sm rounded px-1.5 py-0.5 border border-emerald-400/40">
             <div class="text-[7px] font-mono text-emerald-300 tracking-wider">UGV · 16 SPECTROGRAMS</div>
           </div>
-          <img :src="'/erp-ugv-col.png'" alt="ERP UGV Collision Spectrogram" class="max-w-full max-h-full object-contain rounded shadow-lg s22-image-effect" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+          <img :src="`${import.meta.env.BASE_URL}erp-ugv-col.png`" alt="ERP UGV Collision Spectrogram" class="max-w-full max-h-full object-contain rounded shadow-lg s22-image-effect" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
           <div class="hidden flex-col items-center justify-center gap-2 text-slate-500 font-mono text-[10px] p-8 border-2 border-dashed border-slate-700 rounded-lg">
             <div class="text-[14px] text-emerald-400">💥</div>
             <div>Place image at: <span class="text-emerald-300">public/erp-ugv-col.png</span></div>
@@ -6014,7 +6014,7 @@ transition: fade
           <div class="absolute bottom-2 left-2 z-30 bg-black/60 backdrop-blur-sm rounded px-1.5 py-0.5 border border-sky-400/40">
             <div class="text-[7px] font-mono text-sky-300 tracking-wider">UAV · 16 SPECTROGRAMS</div>
           </div>
-          <img :src="'/erp-uav-stim.png'" alt="ERP UAV Stimulus Spectrogram" class="max-w-full max-h-full object-contain rounded shadow-lg s23-image-effect" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+          <img :src="`${import.meta.env.BASE_URL}erp-uav-stim.png`" alt="ERP UAV Stimulus Spectrogram" class="max-w-full max-h-full object-contain rounded shadow-lg s23-image-effect" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
           <div class="hidden flex-col items-center justify-center gap-2 text-slate-500 font-mono text-[10px] p-8 border-2 border-dashed border-slate-700 rounded-lg">
             <div class="text-[14px] text-emerald-400">📈</div>
             <div>Place image at: <span class="text-emerald-300">public/erp-uav-stim.png</span></div>
@@ -6254,7 +6254,7 @@ transition: fade
           <div class="absolute bottom-2 left-2 z-30 bg-black/60 backdrop-blur-sm rounded px-1.5 py-0.5 border border-yellow-400/40">
             <div class="text-[7px] font-mono text-yellow-300 tracking-wider">UAV · YAW DEVIATION EVENT</div>
           </div>
-          <img :src="'/erp-uav-dev.png'" alt="ERP UAV Deviation Spectrogram" class="max-w-full max-h-full object-contain rounded shadow-lg s24-image-effect" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+          <img :src="`${import.meta.env.BASE_URL}erp-uav-dev.png`" alt="ERP UAV Deviation Spectrogram" class="max-w-full max-h-full object-contain rounded shadow-lg s24-image-effect" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
           <div class="hidden flex-col items-center justify-center gap-2 text-slate-500 font-mono text-[10px] p-8 border-2 border-dashed border-slate-700 rounded-lg">
             <div class="text-[14px] text-emerald-400">⚠️</div>
             <div>Place image at: <span class="text-emerald-300">public/erp-uav-dev.png</span></div>
@@ -6489,7 +6489,7 @@ transition: fade
             <div class="w-1 h-1 rounded-full bg-cyan-400 s25-rec-dot-cyan"></div>
             <div class="text-[6px] font-mono font-bold text-cyan-300 tracking-wider">.GIF</div>
           </div>
-          <img :src="'/topo-ugv-stim.gif'" alt="UGV Stimulus Topography" class="block w-full h-full object-contain rounded shadow-lg s25-image-effect" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+          <img :src="`${import.meta.env.BASE_URL}topo-ugv-stim.gif`" alt="UGV Stimulus Topography" class="block w-full h-full object-contain rounded shadow-lg s25-image-effect" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
           <div class="hidden flex-col items-center justify-center gap-1 text-slate-500 font-mono text-[8px] p-3 border-2 border-dashed border-slate-700 rounded-lg">
             <div class="text-[12px] text-cyan-400">🧠</div>
             <div class="text-cyan-300">topo-ugv-stim.gif</div>
@@ -6515,7 +6515,7 @@ transition: fade
             <div class="w-1 h-1 rounded-full bg-red-400 s25-rec-dot-red"></div>
             <div class="text-[6px] font-mono font-bold text-red-300 tracking-wider">.GIF</div>
           </div>
-          <img :src="'/topo-ugv-col.gif'" alt="UGV Collision Topography" class="block w-full h-full object-contain rounded shadow-lg s25-image-effect" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+          <img :src="`${import.meta.env.BASE_URL}topo-ugv-col.gif`" alt="UGV Collision Topography" class="block w-full h-full object-contain rounded shadow-lg s25-image-effect" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
           <div class="hidden flex-col items-center justify-center gap-1 text-slate-500 font-mono text-[8px] p-3 border-2 border-dashed border-slate-700 rounded-lg">
             <div class="text-[12px] text-red-400">💥</div>
             <div class="text-red-300">topo-ugv-col.gif</div>
@@ -6541,7 +6541,7 @@ transition: fade
             <div class="w-1 h-1 rounded-full bg-sky-400 s25-rec-dot-sky"></div>
             <div class="text-[6px] font-mono font-bold text-sky-300 tracking-wider">.GIF</div>
           </div>
-          <img :src="'/topo-uav-stim.gif'" alt="UAV Stimulus Topography" class="block w-full h-full object-contain rounded shadow-lg s25-image-effect" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+          <img :src="`${import.meta.env.BASE_URL}topo-uav-stim.gif`" alt="UAV Stimulus Topography" class="block w-full h-full object-contain rounded shadow-lg s25-image-effect" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
           <div class="hidden flex-col items-center justify-center gap-1 text-slate-500 font-mono text-[8px] p-3 border-2 border-dashed border-slate-700 rounded-lg">
             <div class="text-[12px] text-sky-400">🛩️</div>
             <div class="text-sky-300">topo-uav-stim.gif</div>
@@ -6567,7 +6567,7 @@ transition: fade
             <div class="w-1 h-1 rounded-full bg-yellow-400 s25-rec-dot-yellow"></div>
             <div class="text-[6px] font-mono font-bold text-yellow-300 tracking-wider">.GIF</div>
           </div>
-          <img :src="'/topo-uav-dev.gif'" alt="UAV Deviation Topography" class="block w-full h-full object-contain rounded shadow-lg s25-image-effect" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+          <img :src="`${import.meta.env.BASE_URL}topo-uav-dev.gif`" alt="UAV Deviation Topography" class="block w-full h-full object-contain rounded shadow-lg s25-image-effect" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
           <div class="hidden flex-col items-center justify-center gap-1 text-slate-500 font-mono text-[8px] p-3 border-2 border-dashed border-slate-700 rounded-lg">
             <div class="text-[12px] text-yellow-400">⚠️</div>
             <div class="text-yellow-300">topo-uav-dev.gif</div>
@@ -6751,7 +6751,7 @@ transition: fade
           <div class="absolute bottom-2 left-2 z-30 bg-black/60 backdrop-blur-sm rounded px-1.5 py-0.5 border border-fuchsia-400/40">
             <div class="text-[7px] font-mono text-fuchsia-300 tracking-wider">EEG vs EEG+GAZE · ★ BEST k</div>
           </div>
-          <img :src="'/feature-selection-result.png'" alt="Feature Selection Result" class="block w-full h-full object-contain rounded shadow-lg s26-image-effect" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+          <img :src="`${import.meta.env.BASE_URL}feature-selection-result.png`" alt="Feature Selection Result" class="block w-full h-full object-contain rounded shadow-lg s26-image-effect" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
           <div class="hidden flex-col items-center justify-center gap-2 text-slate-500 font-mono text-[10px] p-8 border-2 border-dashed border-slate-700 rounded-lg">
             <div class="text-[14px] text-emerald-400">📊</div>
             <div>Place image at: <span class="text-emerald-300">public/feature-selection-result.png</span></div>
@@ -6987,7 +6987,7 @@ transition: fade
           <div class="absolute bottom-2 left-2 z-30 bg-black/60 backdrop-blur-sm rounded px-1.5 py-0.5 border border-blue-400/40">
             <div class="text-[7px] font-mono text-blue-300 tracking-wider">9 MODELS · TRUE vs PREDICTED</div>
           </div>
-          <img :src="'/confusion-matrix.png'" alt="Confusion Matrix EEG Models" class="block w-full h-full object-contain rounded shadow-lg s27-image-effect" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+          <img :src="`${import.meta.env.BASE_URL}confusion-matrix.png`" alt="Confusion Matrix EEG Models" class="block w-full h-full object-contain rounded shadow-lg s27-image-effect" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
           <div class="hidden flex-col items-center justify-center gap-2 text-slate-500 font-mono text-[10px] p-8 border-2 border-dashed border-slate-700 rounded-lg">
             <div class="text-[14px] text-emerald-400">📊</div>
             <div>Place image at: <span class="text-emerald-300">public/confusion-matrix.png</span></div>
@@ -7227,7 +7227,7 @@ transition: fade
           <div class="absolute bottom-2 left-2 z-30 bg-black/60 backdrop-blur-sm rounded px-1.5 py-0.5 border border-sky-400/40">
             <div class="text-[7px] font-mono text-sky-300 tracking-wider">9 MODELS · TPR vs FPR</div>
           </div>
-          <img :src="'/roc-curve.png'" alt="ROC Curve EEG Models" class="block w-full h-full object-contain rounded shadow-lg s28-image-effect" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+          <img :src="`${import.meta.env.BASE_URL}roc-curve.png`" alt="ROC Curve EEG Models" class="block w-full h-full object-contain rounded shadow-lg s28-image-effect" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
           <div class="hidden flex-col items-center justify-center gap-2 text-slate-500 font-mono text-[10px] p-8 border-2 border-dashed border-slate-700 rounded-lg">
             <div class="text-[14px] text-emerald-400">📈</div>
             <div>Place image at: <span class="text-emerald-300">public/roc-curve.png</span></div>
@@ -7466,7 +7466,7 @@ transition: fade
           <div class="absolute bottom-2 left-2 z-30 bg-black/60 backdrop-blur-sm rounded px-1.5 py-0.5 border border-violet-400/40">
             <div class="text-[7px] font-mono text-violet-300 tracking-wider">9 MODELS · 6 METRICS · ★ AVG LINE</div>
           </div>
-          <img :src="'/model-metrics.png'" alt="Model Metrics Comparison" class="block w-full h-full object-contain rounded shadow-lg s29-image-effect" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+          <img :src="`${import.meta.env.BASE_URL}model-metrics.png`" alt="Model Metrics Comparison" class="block w-full h-full object-contain rounded shadow-lg s29-image-effect" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
           <div class="hidden flex-col items-center justify-center gap-2 text-slate-500 font-mono text-[10px] p-8 border-2 border-dashed border-slate-700 rounded-lg">
             <div class="text-[14px] text-emerald-400">📊</div>
             <div>Place image at: <span class="text-emerald-300">public/model-metrics.png</span></div>
@@ -7919,7 +7919,7 @@ transition: fade
           <div class="absolute bottom-2 left-2 z-30 bg-black/60 backdrop-blur-sm rounded px-1.5 py-0.5 border border-amber-400/40">
             <div class="text-[7px] font-mono text-amber-300 tracking-wider">TELEOPERATION</div>
           </div>
-          <video :src="'/teleoperation-video.mp4'" autoplay loop muted playsinline class="block w-full h-full object-cover rounded shadow-lg s31-video-effect" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <video :src="`${import.meta.env.BASE_URL}teleoperation-video.mp4`" autoplay loop muted playsinline class="block w-full h-full object-cover rounded shadow-lg s31-video-effect" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
             Video not supported
           </video>
           <div class="hidden flex-col items-center justify-center gap-2 text-slate-500 font-mono text-[10px] p-4 border-2 border-dashed border-slate-700 rounded-lg h-full">
