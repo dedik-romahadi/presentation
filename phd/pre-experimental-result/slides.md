@@ -5,7 +5,7 @@ highlighter: shiki
 lineNumbers: false
 drawings:
   persist: false
-transition: fade
+transition: view-transition
 colorSchema: dark
 fonts:
   sans: 'Inter'
@@ -447,7 +447,7 @@ fonts:
 
 
 ---
-transition: fade
+transition: slide-left
 ---
 <div class="absolute inset-0 bg-black"></div>
 <div class="absolute inset-0">
@@ -650,7 +650,7 @@ transition: fade
 
 
 ---
-transition: fade
+transition: fade-out
 ---
 
 <div class="absolute inset-0 bg-black"></div>
@@ -801,7 +801,7 @@ transition: fade
 </style>
 
 ---
-transition: fade
+transition: slide-left
 ---
 <div class="absolute inset-0 bg-black"></div>
 <div class="absolute inset-0">
@@ -1372,7 +1372,7 @@ transition: fade
 
 
 ---
-transition: fade
+transition: slide-up
 ---
 <div class="absolute inset-0 bg-black"></div>
 <div class="absolute inset-0">
@@ -1479,7 +1479,7 @@ transition: fade
 
 
 ---
-transition: fade
+transition: slide-left
 ---
 <div class="absolute inset-0 bg-black"></div>
 <div class="absolute inset-0">
@@ -1586,7 +1586,7 @@ transition: fade
 
 
 ---
-transition: fade
+transition: fade-out
 ---
 <div class="absolute inset-0 bg-black"></div>
 <div class="absolute inset-0">
@@ -1693,7 +1693,7 @@ transition: fade
 
 
 ---
-transition: fade
+transition: slide-left
 ---
 <div class="absolute inset-0 bg-black"></div>
 <div class="absolute inset-0">
@@ -2086,7 +2086,7 @@ transition: fade
 
 
 ---
-transition: fade
+transition: view-transition
 ---
 <div class="absolute inset-0 bg-black"></div>
 <div class="absolute inset-0">
@@ -2237,7 +2237,7 @@ transition: fade
 
 
 ---
-transition: fade
+transition: slide-left
 ---
 <div class="absolute inset-0 bg-black"></div>
 <div class="absolute inset-0">
@@ -2574,7 +2574,7 @@ transition: fade
 
 
 ---
-transition: fade
+transition: fade-out
 ---
 <div class="absolute inset-0 bg-black"></div>
 <div class="absolute inset-0">
@@ -2944,7 +2944,7 @@ transition: fade
 
 
 ---
-transition: fade
+transition: slide-left
 ---
 <div class="absolute inset-0 bg-black"></div>
 <div class="absolute inset-0">
@@ -3236,7 +3236,7 @@ transition: fade
 
 
 ---
-transition: fade
+transition: slide-up
 ---
 <div class="absolute inset-0 bg-black"></div>
 <div class="absolute inset-0">
@@ -3582,7 +3582,7 @@ transition: fade
 
 
 ---
-transition: fade
+transition: slide-left
 ---
 <div class="absolute inset-0 bg-black"></div>
 <div class="absolute inset-0">
@@ -3920,7 +3920,7 @@ transition: fade
 
 
 ---
-transition: fade
+transition: fade-out
 ---
 <div class="absolute inset-0 bg-black"></div>
 <div class="absolute inset-0">
@@ -4311,7 +4311,7 @@ transition: fade
 
 
 ---
-transition: fade
+transition: slide-left
 ---
 <div class="absolute inset-0 bg-black"></div>
 <div class="absolute inset-0">
@@ -4462,7 +4462,7 @@ transition: fade
 
 
 ---
-transition: fade
+transition: view-transition
 ---
 <div class="absolute inset-0 bg-black"></div>
 <div class="absolute inset-0">
@@ -4747,7 +4747,7 @@ transition: fade
 
 
 ---
-transition: fade
+transition: slide-left
 ---
 <div class="absolute inset-0 bg-black"></div>
 <div class="absolute inset-0">
@@ -4989,7 +4989,7 @@ transition: fade
 
 
 ---
-transition: fade
+transition: fade-out
 ---
 <div class="absolute inset-0 bg-black"></div>
 <div class="absolute inset-0">
@@ -5228,7 +5228,7 @@ transition: fade
 
 
 ---
-transition: fade
+transition: slide-left
 ---
 <div class="absolute inset-0 bg-black"></div>
 <div class="absolute inset-0">
@@ -5467,7 +5467,7 @@ transition: fade
 
 
 ---
-transition: fade
+transition: slide-up
 ---
 <div class="absolute inset-0 bg-black"></div>
 <div class="absolute inset-0">
@@ -5706,7 +5706,7 @@ transition: fade
 
 
 ---
-transition: fade
+transition: slide-left
 ---
 <div class="absolute inset-0 bg-black"></div>
 <div class="absolute inset-0">
@@ -5946,7 +5946,7 @@ transition: fade
 
 
 ---
-transition: fade
+transition: fade-out
 ---
 <div class="absolute inset-0 bg-black"></div>
 <div class="absolute inset-0">
@@ -6186,7 +6186,7 @@ transition: fade
 
 
 ---
-transition: fade
+transition: slide-left
 ---
 <div class="absolute inset-0 bg-black"></div>
 <div class="absolute inset-0">
@@ -6426,7 +6426,7 @@ transition: fade
 
 
 ---
-transition: fade
+transition: view-transition
 ---
 <div class="absolute inset-0 bg-black"></div>
 <div class="absolute inset-0">
@@ -6683,7 +6683,7 @@ transition: fade
 
 
 ---
-transition: fade
+transition: slide-left
 ---
 <div class="absolute inset-0 bg-black"></div>
 <div class="absolute inset-0">
@@ -6919,7 +6919,7 @@ transition: fade
 
 
 ---
-transition: fade
+transition: fade-out
 ---
 <div class="absolute inset-0 bg-black"></div>
 <div class="absolute inset-0">
@@ -7159,7 +7159,7 @@ transition: fade
 
 
 ---
-transition: fade
+transition: slide-left
 ---
 <div class="absolute inset-0 bg-black"></div>
 <div class="absolute inset-0">
@@ -7398,7 +7398,7 @@ transition: fade
 
 
 ---
-transition: fade
+transition: slide-up
 ---
 <div class="absolute inset-0 bg-black"></div>
 <div class="absolute inset-0">
@@ -7636,7 +7636,7 @@ transition: fade
 
 
 ---
-transition: fade
+transition: slide-left
 ---
 <div class="absolute inset-0 bg-black"></div>
 <div class="absolute inset-0 overflow-hidden">
@@ -7814,7 +7814,7 @@ transition: fade
 
 
 ---
-transition: fade
+transition: fade-out
 ---
 <div class="absolute inset-0 bg-black"></div>
 <div class="absolute inset-0">
@@ -8049,7 +8049,7 @@ transition: fade
 
 
 ---
-transition: fade
+transition: slide-left
 ---
 <div class="absolute inset-0 bg-black"></div>
 <div class="absolute inset-0">
@@ -8329,7 +8329,7 @@ transition: fade
 
 
 ---
-transition: fade
+transition: view-transition
 ---
 <div class="absolute inset-0 bg-black"></div>
 <div class="absolute inset-0">
