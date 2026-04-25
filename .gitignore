@@ -1,0 +1,15 @@
+node_modules/
+dist/
+preview-dist/
+
+# build outputs in subdirectories
+**/dist/
+**/preview-dist/
+
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+.env
+.env.local
