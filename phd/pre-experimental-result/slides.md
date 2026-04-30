@@ -8330,6 +8330,7 @@ transition: slide-left
 
 ---
 transition: view-transition
+hide: true
 ---
 <div class="absolute inset-0 bg-black"></div>
 <div class="absolute inset-0">
