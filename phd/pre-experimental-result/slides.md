@@ -865,7 +865,7 @@ transition: slide-left
             </svg>
           </div>
           <div class="text-center">
-            <div class="text-[0.95rem] font-bold text-white leading-tight">Subject</div>
+            <div class="text-[0.95rem] font-bold text-white leading-tight">Operator</div>
             <div class="text-[0.7rem] text-fuchsia-200/70 mt-0.5">Wearing EEG cap</div>
           </div>
         </div>
