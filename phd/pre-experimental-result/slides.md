@@ -194,7 +194,7 @@ fonts:
     </div>
     <div class="flex items-center gap-3 anim-fade-in-delay mr-24">
       <div class="w-2 h-2 bg-cyan-400 rounded-full anim-pulse-strong"></div>
-      <div class="text-[10px] uppercase tracking-[0.4em] text-cyan-400 font-mono">Paper 01 · Proposal</div>
+      <div class="text-[10px] uppercase tracking-[0.4em] text-cyan-400 font-mono">Pre-Experiment Result</div>
     </div>
   </div>
   <div class="mt-10 max-w-[75%]">
