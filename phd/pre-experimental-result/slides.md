@@ -4799,14 +4799,14 @@ transition: slide-left
       <div class="text-[9px] uppercase tracking-[0.2em] text-slate-400 font-mono text-right">Raw → Step+Spike Correction → Final Segment</div>
       <div class="flex items-center gap-2">
         <div class="w-1.5 h-1.5 bg-emerald-400 rounded-full s18-pulse-strong"></div>
-        <div class="text-[10px] uppercase tracking-[0.3em] text-emerald-300 font-mono font-bold s18-blink-text">UGV · Seg 50</div>
+        <div class="text-[10px] uppercase tracking-[0.3em] text-emerald-300 font-mono font-bold s18-blink-text">PVT · UGV · UAV</div>
       </div>
     </div>
   </div>
   <div class="flex-1 flex gap-2 min-h-0 mt-1">
     <div class="border border-emerald-400/40 rounded-lg bg-slate-900/30 overflow-hidden flex-[3.5] flex flex-col min-h-0">
       <div class="bg-gradient-to-r from-emerald-500/20 via-emerald-500/5 to-transparent px-2 py-0.5 border-b border-emerald-400/30 flex items-center gap-2 flex-shrink-0">
-        <div class="text-[10px] font-mono font-bold text-emerald-300">▸ UGV · Artifact Detection Visualization · Segment 50 (Unguarded)</div>
+        <div class="text-[10px] font-mono font-bold text-emerald-300">▸ Artifact Detection Visualization · Segment 50 (Unguarded)</div>
         <div class="flex-1 h-px bg-gradient-to-r from-emerald-400/50 to-transparent"></div>
         <div class="text-[8px] font-mono text-emerald-400/70">8 Channels · 7s Window · 500 Hz</div>
       </div>
@@ -4882,7 +4882,7 @@ transition: slide-left
             <div class="text-[7.5px] font-mono text-emerald-200/80 mt-0.5">Spikes Detected</div>
           </div>
           <div class="border border-cyan-400/40 rounded bg-cyan-950/30 px-1.5 py-1 text-center">
-            <div class="text-[14px] font-bold text-cyan-300 leading-none">8s</div>
+            <div class="text-[14px] font-bold text-cyan-300 leading-none">8 - 11s</div>
             <div class="text-[7.5px] font-mono text-cyan-200/80 mt-0.5">Window Size</div>
           </div>
           <div class="border border-yellow-400/40 rounded bg-yellow-950/30 px-1.5 py-1 text-center">
