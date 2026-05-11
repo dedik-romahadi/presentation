@@ -4808,7 +4808,7 @@ transition: slide-left
       <div class="bg-gradient-to-r from-emerald-500/20 via-emerald-500/5 to-transparent px-2 py-0.5 border-b border-emerald-400/30 flex items-center gap-2 flex-shrink-0">
         <div class="text-[10px] font-mono font-bold text-emerald-300">▸ Artifact Detection Visualization · Segment 50 (Unguarded)</div>
         <div class="flex-1 h-px bg-gradient-to-r from-emerald-400/50 to-transparent"></div>
-        <div class="text-[8px] font-mono text-emerald-400/70">8 Channels · 7s Window · 500 Hz</div>
+        <div class="text-[8px] font-mono text-emerald-400/70">8 Channels · 8-11s Window · 500 Hz</div>
       </div>
       <div class="flex-1 p-2 min-h-0 flex items-center justify-center bg-slate-950/40 relative">
         <div class="relative max-w-full max-h-full s18-image-container">
@@ -4827,11 +4827,11 @@ transition: slide-left
           <div class="absolute bottom-2 left-2 z-30 bg-black/60 backdrop-blur-sm rounded px-1.5 py-0.5 border border-emerald-400/40">
             <div class="text-[7px] font-mono text-emerald-300 tracking-wider">EEG · 8 CHANNELS · 500 HZ</div>
           </div>
-          <img src="/preprocessing-result.png" alt="UGV - Artifact Detection Visualization - Segment 50" class="max-w-full max-h-full object-contain rounded shadow-lg s18-image-effect" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+          <img src="/preprocessing-result.png" alt="Artifact Detection Visualization - Segment 50" class="max-w-full max-h-full object-contain rounded shadow-lg s18-image-effect" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
           <div class="hidden flex-col items-center justify-center gap-2 text-slate-500 font-mono text-[10px] p-8 border-2 border-dashed border-slate-700 rounded-lg">
             <div class="text-[14px] text-emerald-400">📊</div>
             <div>Place image at: <span class="text-emerald-300">public/preprocessing-result.png</span></div>
-            <div class="text-[8px] text-slate-600">UGV - Artifact Detection Visualization - Segment 50</div>
+            <div class="text-[8px] text-slate-600">Artifact Detection Visualization - Segment 50</div>
           </div>
         </div>
       </div>
