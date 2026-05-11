@@ -1739,9 +1739,9 @@ transition: slide-left
   <div class="flex-1 grid grid-cols-3 gap-4 items-stretch">
     <div class="s8-col-1 relative neon-card-fuchsia">
       <div class="neon-card-inner-col">
-        <div class="flex items-center justify-center mb-3 pb-3 border-b border-fuchsia-400/20">
+        <div class="flex items-center justify-center mb-2 pb-2 border-b border-fuchsia-400/20">
           <div class="flex items-center gap-3">
-            <svg class="w-9 h-9 s8-icon-pvt-wrap" viewBox="0 0 40 40" fill="none">
+            <svg class="w-7 h-7 s8-icon-pvt-wrap" viewBox="0 0 40 40" fill="none">
               <circle cx="20" cy="20" r="17" stroke="#f0abfc" stroke-width="1.5" opacity="0.4"/>
               <circle cx="20" cy="20" r="13" stroke="#f0abfc" stroke-width="1.5" opacity="0.6"/>
               <circle cx="20" cy="20" r="9" stroke="#f0abfc" stroke-width="1.5" opacity="0.8"/>
@@ -1752,7 +1752,7 @@ transition: slide-left
               <line x1="2" y1="20" x2="7" y2="20" stroke="#f0abfc" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
               <line x1="33" y1="20" x2="38" y2="20" stroke="#f0abfc" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
             </svg>
-            <div class="text-[1.6rem] font-black text-fuchsia-300 tracking-wider">PVT</div>
+            <div class="text-[1.3rem] font-black text-fuchsia-300 tracking-wider">PVT</div>
           </div>
         </div>
         <div class="mb-3">
@@ -1797,9 +1797,9 @@ transition: slide-left
     </div>
     <div class="s8-col-2 relative neon-card-amber-soft">
       <div class="neon-card-inner-col">
-        <div class="flex items-center justify-center mb-3 pb-3 border-b border-amber-400/20">
+        <div class="flex items-center justify-center mb-2 pb-2 border-b border-amber-400/20">
           <div class="flex items-center gap-3">
-            <svg class="w-11 h-9 s8-icon-ugv-wrap" viewBox="0 0 48 40" fill="none">
+            <svg class="w-9 h-7 s8-icon-ugv-wrap" viewBox="0 0 48 40" fill="none">
               <rect class="s8-ugv-track-outer" x="3" y="22" width="42" height="11" rx="5.5" stroke="#fcd34d" stroke-width="1.5" fill="#0a0805"/>
               <circle cx="9" cy="27.5" r="2" fill="#fcd34d" opacity="0.7"/>
               <circle cx="17" cy="27.5" r="2" fill="#fcd34d" opacity="0.7"/>
@@ -1817,7 +1817,7 @@ transition: slide-left
               <circle class="s8-ugv-headlight-l" cx="40" cy="14" r="1.3" fill="#fcd34d"/>
               <circle class="s8-ugv-headlight-r" cx="40" cy="19" r="1.3" fill="#fcd34d"/>
             </svg>
-            <div class="text-[1.6rem] font-black text-amber-300 tracking-wider">UGV</div>
+            <div class="text-[1.3rem] font-black text-amber-300 tracking-wider">UGV</div>
           </div>
         </div>
         <div class="mb-3">
@@ -1845,6 +1845,10 @@ transition: slide-left
               <div class="w-1 h-1 rounded-full bg-green-400 mt-1.5 flex-shrink-0"></div>
               <div class="text-[0.78rem] text-slate-200 leading-snug">Reaction Time <span class="font-mono text-green-300">≤ 1 s</span></div>
             </div>
+            <div class="flex items-start gap-2">
+              <div class="w-1 h-1 rounded-full bg-green-400 mt-1.5 flex-shrink-0"></div>
+              <div class="text-[0.78rem] text-slate-200 leading-snug">Total trial duration <span class="font-mono text-green-300">≤ 20 s</span></div>
+            </div>
           </div>
         </div>
         <div>
@@ -1868,15 +1872,19 @@ transition: slide-left
               <div class="w-1 h-1 rounded-full bg-amber-400 mt-1.5 flex-shrink-0"></div>
               <div class="text-[0.78rem] text-slate-200 leading-snug">Reaction Time <span class="font-mono text-amber-300">&gt; 1 s</span></div>
             </div>
+            <div class="flex items-start gap-2">
+              <div class="w-1 h-1 rounded-full bg-amber-400 mt-1.5 flex-shrink-0"></div>
+              <div class="text-[0.78rem] text-slate-200 leading-snug">Total trial duration <span class="font-mono text-amber-300">&gt; 20 s</span></div>
+            </div>
           </div>
         </div>
       </div>
     </div>
     <div class="s8-col-3 relative neon-card-cyan-soft">
       <div class="neon-card-inner-col">
-        <div class="flex items-center justify-center mb-3 pb-3 border-b border-cyan-400/20">
+        <div class="flex items-center justify-center mb-2 pb-2 border-b border-cyan-400/20">
           <div class="flex items-center gap-3">
-            <svg class="w-10 h-9 s8-icon-uav-wrap" viewBox="0 0 44 40" fill="none">
+            <svg class="w-8 h-7 s8-icon-uav-wrap" viewBox="0 0 44 40" fill="none">
               <line x1="13" y1="13" x2="31" y2="27" stroke="#67e8f9" stroke-width="1.8" stroke-linecap="round"/>
               <line x1="31" y1="13" x2="13" y2="27" stroke="#67e8f9" stroke-width="1.8" stroke-linecap="round"/>
               <rect x="17" y="16" width="10" height="8" rx="2" fill="#0a0f1e" stroke="#67e8f9" stroke-width="1.5"/>
@@ -1895,7 +1903,7 @@ transition: slide-left
               <circle cx="31" cy="27" r="1.5" fill="#67e8f9"/>
               <ellipse class="s8-uav-shadow" cx="22" cy="36" rx="10" ry="1.5" fill="#67e8f9" opacity="0.15"/>
             </svg>
-            <div class="text-[1.6rem] font-black text-cyan-300 tracking-wider">UAV</div>
+            <div class="text-[1.3rem] font-black text-cyan-300 tracking-wider">UAV</div>
           </div>
         </div>
         <div class="mb-3">
@@ -1914,6 +1922,10 @@ transition: slide-left
             <div class="flex items-start gap-2">
               <div class="w-1 h-1 rounded-full bg-green-400 mt-1.5 flex-shrink-0"></div>
               <div class="text-[0.78rem] text-slate-200 leading-snug">Deviation duration <span class="font-mono text-green-300">≤ 2 s</span></div>
+            </div>
+            <div class="flex items-start gap-2">
+              <div class="w-1 h-1 rounded-full bg-green-400 mt-1.5 flex-shrink-0"></div>
+              <div class="text-[0.78rem] text-slate-200 leading-snug">Both Stimulus and Response exist</div>
             </div>
             <div class="flex items-start gap-2">
               <div class="w-1 h-1 rounded-full bg-green-400 mt-1.5 flex-shrink-0"></div>
@@ -1989,7 +2001,7 @@ transition: slide-left
 .neon-card-inner-col {
   background: #0a0f1e;
   border-radius: 12px;
-  padding: 14px 14px;
+  padding: 10px 14px;
   height: 100%;
   display: flex;
   flex-direction: column;
