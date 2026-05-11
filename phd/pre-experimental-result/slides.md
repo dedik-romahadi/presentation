@@ -2558,7 +2558,7 @@ transition: slide-left
 @keyframes s10DashMarch { to { stroke-dashoffset: -8; } }
 .s10-dash-orange { animation: s10DashMarch 0.6s linear infinite; }
 .s10-dash-cyan { animation: s10DashMarch 0.6s linear infinite; animation-delay: -0.2s; }
-.s10-dash-rose { animation: s10DashMarch 0.6s linear infinite; }
+.s10-dash-rose { animation: s10DashMarch 0.6s linear infinite reverse; }
 .s10-dash-emerald { animation: s10DashMarch 0.6s linear infinite; animation-delay: -0.3s; }
 @keyframes s10TrashShake {
   0%, 100% { transform: rotate(0deg); }
